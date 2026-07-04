@@ -160,5 +160,4 @@ will update soon
 
 ## License
 
-Released under the MIT License. Add a `LICENSE` file before publishing (or swap in the license
-of your choice).
+Released under the MIT License.
