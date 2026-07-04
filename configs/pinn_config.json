@@ -1,0 +1,38 @@
+{
+  "data_path": "../../dataset generation/pinn_three_body_dataset.npz",
+  "epochs": 2000,
+  "batch_size": 2048,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "hidden_dim": 128,
+  "num_blocks": 5,
+  "lambda_physics": 0.1,
+  "n_collocation": 10000,
+  "scheduler_type": "plateau",
+  "device": "cuda",
+  "n_params": 166148,
+  "norm_stats": {
+    "input_mean": [
+      4.996188640594482,
+      0.20809507369995117,
+      0.3090117573738098
+    ],
+    "input_std": [
+      2.909262180328369,
+      0.14608807861804962,
+      0.25459522008895874
+    ],
+    "target_mean": [
+      0.5163987278938293,
+      -0.15462853014469147,
+      -0.07202441990375519,
+      0.07443005591630936
+    ],
+    "target_std": [
+      1.1905876398086548,
+      1.003760814666748,
+      0.7196353077888489,
+      0.7739954590797424
+    ]
+  }
+}
